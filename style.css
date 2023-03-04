@@ -1,0 +1,110 @@
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+     * {
+        
+     }
+    body {
+        background-color: hsl(30, 38%, 92%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 700px;
+    }
+    /* desktop img only */
+    @media (min-width: 701px){
+        .img-m {
+            display: none;
+        }
+    }
+    /* mobile view */
+@media (max-width: 800px) {
+    body {
+      flex-direction: column;
+    }
+    * {
+        box-sizing:;
+        margin: 0;
+        padding: 0;
+    }
+    .img-d {
+        display: none;
+    }
+    .imagetext {
+        border-radius: 1em;
+
+    }
+    .cover
+  }
+    .title {
+        font-size: 4;
+        font-family: 'Montserrat', sans-serif;
+       font-weight: 700;
+       font-size: 14px;
+       letter-spacing: 4px;
+       color: hsl(228, 12%, 48%);
+       padding-left: 20px;
+       padding-top: 20px;
+
+    }
+    .discription {
+        margin: 1rem;
+        font-weight: 700;
+        font-size: 35px;
+        padding-right: 30px ;
+    }
+    p {
+        margin: 1rem;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 1.5rem;
+        padding-right: px;
+        font-family: 'Montserrat', sans-serif;
+        color:  hsl(228, 12%, 48%)
+ 
+    }
+   
+    img {
+        max-width: 300px;
+        border-radius: 1em 0 0 1em;
+    }
+    .imagetext {
+       
+        background-color: hsl(0, 0%, 100%);
+       height: 450px;
+        width: 280px;
+        border-radius: 0 1em 1em 0;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 15px;
+     
+    }
+    button {
+        display:block;
+        margin: 1rem auto;
+        padding: 1rem 5.5rem;
+        border-radius: 1rem;
+        border: none;
+        background-color: hsl(158, 36%, 37%);
+        color: hsl(0, 0%, 100%); 
+    }
+    button:hover {
+        background-color: hsl(158, 93%, 52%);
+        color: ;
+    }
+    
+    .current-price {
+        display: inline-block;
+        font-size: 2rem;
+        font-weight: 700;
+        font-family: 'Fraunces', serif;
+        color: hsl(158, 36%, 37%);
+
+    }
+    .original-price {
+        display: inline;
+        text-decoration: line-through;
+        line-height: 5px;
+        vertical-align: text-top;
+    }
+
+ 
